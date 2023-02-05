@@ -8,6 +8,7 @@ public class AreaCalculator
       System.out.print("Enter the radius of your circle: ");
       double radius = keyboard.nextDouble();
       double area = Math.PI*radius*radius;
+      //print
       System.out.print("The area of the circle is: " + area);
    }
 }
